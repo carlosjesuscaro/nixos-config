@@ -8,6 +8,7 @@
     services.keybase.enable = true;
     services.kbfs.enable = true;
 
+    # Installing the apps
     environment.systemPackages = with pkgs;
       # Defining the R packages
       let
@@ -57,5 +58,4 @@
         brave
         apple-music-electron
       ];
-
 }
