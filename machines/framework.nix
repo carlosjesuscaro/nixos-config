@@ -19,13 +19,13 @@
   # Home Manager setup
   home-manager.users.carlos = { pkgs, config, ...}: {
     import = [
-#        ../home/atom.nix
-#        ../home/git.nix
-#        ../home/gnome.nix
-#        ../home/terminal.nix
-#        ../home/vscode.nix
-#        ../home/zsh.nix
-#        ../home/virtualization.nix
+        ../home/atom.nix
+        ../home/git.nix
+        ../home/gnome.nix
+        ../home/terminal.nix
+        ../home/vscode.nix
+        ../home/zsh.nix
+        ../home/virtualization.nix
     ];
   };
 
