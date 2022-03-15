@@ -6,7 +6,6 @@
     extensions = with pkgs.vscode-extensions; [
       graphql.vscode-graphql
       mskelton.one-dark-theme
-      # vscodevim.vim
       yzhang.markdown-all-in-one
       bbenoist.nix
     ];

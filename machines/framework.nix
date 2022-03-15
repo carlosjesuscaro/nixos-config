@@ -8,6 +8,7 @@
       ../system/common.nix
       ../system/apps.nix
       ../system/unstable.nix
+      ../modules/virtualization.nix
     ];
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
@@ -19,13 +20,11 @@
   # Home Manager setup
   home-manager.users.carlos = { pkgs, config, ...}: {
     imports = [
-        #../home/atom.nix
         ../home/git.nix
         ../home/gnome.nix
         ../home/terminal.nix
         ../home/vscode.nix
         ../home/zsh.nix
-        #../home/virtualization.nix
     ];
   };
 

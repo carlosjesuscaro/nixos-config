@@ -8,6 +8,9 @@
     services.keybase.enable = true;
     services.kbfs.enable = true;
 
+    # Prevent futur errors from Gnome, see https://nixos.wiki/wiki/GNOME#Running_GNOME_programs_outside_of_GNOME
+    programs.dconf.enable = true;
+
     # Installing the apps
     environment.systemPackages = with pkgs;
       # Defining the R packages
