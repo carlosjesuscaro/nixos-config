@@ -9,8 +9,11 @@
           %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches";
         };
         extraConfig = {
+          core = {
+                  #editor = "/run/current-system/sw/bin/subl -w";
+                };
           init = {
-            defaultBranch = "main";
+            defaultBranch = "master";
           };
         pull = {
             rebase = true;

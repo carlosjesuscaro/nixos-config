@@ -6,18 +6,18 @@
       name = "HighContrastInverse";
       package = pkgs.arc-theme;
     };
-    # theme = {
-    #   name = "Arc-Dark";
-    #   package = pkgs.arc-theme;
-    # };
-    # theme = {
-    #   name = "Adwaita-dark";
-    #   # package = pkgs.arc-theme;
-    # };
-    # theme = {
-    #   name = "Qogir-dark";
-    #   package = pkgs.qogir-theme;
-    # };
+#     theme = {
+#       name = "Arc-Dark";
+#       package = pkgs.arc-theme;
+#     };
+#     theme = {
+#       name = "Adwaita-dark";
+#       # package = pkgs.arc-theme;
+#     };
+#     theme = {
+#       name = "Qogir-dark";
+#       package = pkgs.qogir-theme;
+#     };
   };
 
   home.packages = with pkgs; [
@@ -58,5 +58,4 @@
       "sleep-inactive-battery-timeout" = 0;
     };
   };
-
 }

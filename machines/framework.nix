@@ -15,6 +15,7 @@
   users.users.carlos = {
     isNormalUser = true;
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+    shell = pkgs.zsh;
   };
 
   # Home Manager setup
